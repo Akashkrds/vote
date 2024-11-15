@@ -1,0 +1,31 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Online Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register</h2>
+        <form id="register-form">
+            <input type="text" name="name" placeholder="Enter Name" required>
+            <input type="text" name="mobile" placeholder="Enter Mobile Number" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="cpassword" placeholder="Confirm Password" required>
+            <input type="text" name="adhar" placeholder="Enter Adhar Number" required>
+            <input type="text" name="address" placeholder="Enter Address" required>
+            <select name="role">
+                <option value="1">Voter</option>
+                <option value="2">Group</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+        <p>Already a user? <a href="login.html">Login Here</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
